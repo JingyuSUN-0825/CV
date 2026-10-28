@@ -31,7 +31,7 @@ img{max-width:100%}
 h1,h2,h3,p{overflow-wrap:anywhere}
 h1,h2{font-family:var(--serif);font-weight:500;letter-spacing:-.035em;line-height:1.15}
 .page-intro{max-width:760px;margin-bottom:3.6rem}
-.page-intro h1,.contact-page h1{font-size:clamp(2.6rem,6.1vw,4.8rem);margin:0 0 1.2rem;text-wrap:balance}
+.page-intro h1,.contact-page h1{font-size:clamp(2.15rem,4.4vw,3.4rem);margin:0 0 1.2rem;text-wrap:balance}
 .page-intro .lead,.contact-page .lead{max-width:720px;font-size:clamp(1.05rem,1.8vw,1.23rem);color:var(--ink);line-height:1.65}
 .page-intro>p:last-child:not(.eyebrow){color:var(--muted)}
 .home-hero{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(270px,.7fr);gap:clamp(2.5rem,7vw,7rem);align-items:center}
@@ -176,7 +176,7 @@ h1,h2{font-family:var(--serif);font-weight:500;letter-spacing:-.035em;line-heigh
 .language-menu button{display:block;width:100%;padding:.55rem .65rem;border:0;background:transparent;text-align:left;color:var(--body);font-size:.8rem;cursor:pointer}
 .language-menu button:hover,.language-menu button[aria-current=true]{background:var(--surface-soft);color:var(--ink)}
 .language-menu button[aria-current=true]::after{content:'✓';float:right;color:var(--accent)}
-.contact-page h1{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.025em}
+.contact-page h1{font-size:clamp(2rem,3.8vw,3rem);letter-spacing:-.025em}
 .contact-card{margin-top:1.4rem;max-width:790px}
 .contact-card a{grid-template-columns:130px minmax(0,1fr) auto}
 @media(max-width:980px){
